@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3Times</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- compiled and minified CSS & JS (bootstrap 3.3.6)-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.7.3/d3.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="jumbotron text-center">
+				<h1 style="font-family:verdana;" id="main_header">Data Journalism and D3</h1>
+				<p>D3Times</p>
+			<!-- <div class="col-xs-12 col-md-12 col-md-offset-0"> 
+				<h1>D3Times</h1> -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-2">
+				<div class="iframeContainer intrinsic-container-16x9">
+					<!-- Add a responsive iframe here that includes the d3.html file -->
+					<iframe id = "d3Iframe" src="d3.html"></iframe> 
+				</div>
+			</div>
+		</div>
+		<div class="row">
+				<div class="jumbotron text-center">
+				<div class="article">
+					<!-- your analysis of the data -->
+					<div class="iframe_descr">
+						<p> 
+							&emsp; &emsp; There is significant correlation between divorce rates and depression rates with a correlation coefficient of around 0.535. 
+							People often divorce if they are unhappy and may remain unhappy after a failed marriage. In addition, it could be the case that people become unhappy after going through a divorce. 
+						</p>
+						<p> 
+							&emsp; &emsp; Strong correlation between poverty and lack of physical activity (correlation coefficient = -0.77019). 
+							This could be due to the stress caused by poverty or those in poverty may have unhealthy diets and minimal access to gyms. 
+						</p>
+						<p> 
+							&emsp; &emsp; A final correlation is the relationship between being unemployed and having gone to
+							the doctors within the previous year at the time of sampling (coefficient = 0.365). This means those who were unemployed
+							visited the doctor more frequently, while the other response categories fell within the past 2 years, past 5 years, 
+							over 5 years, and never. Thus there seems to be a silver lining to unemployment, or those who are unemployed have 
+							more time to see the doctor. 
+						</p> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!-- Footer-->
+	<div id="footer">
+		<p><!-- Copyright Info here -->
+			Created by Manuela Machado. 
+			</a>
+			Email: manuelamachado.m@gmail.com
+		</p>
+	</div>
+
+</body>
+</html>
